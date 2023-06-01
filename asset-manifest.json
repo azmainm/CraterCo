@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/CraterCo/static/css/main.4df29052.css",
+    "main.js": "/CraterCo/static/js/main.194a3f31.js",
+    "static/media/tab.png": "/CraterCo/static/media/tab.6cd4e81036a47abd5bb7.png",
+    "static/media/wp.png": "/CraterCo/static/media/wp.344172ba232b186d9c64.png",
+    "static/media/bgstars.png": "/CraterCo/static/media/bgstars.067293b573671cf22959.png",
+    "static/media/phone.png": "/CraterCo/static/media/phone.3d8a6b2f57e961d408a9.png",
+    "static/media/jackpt.png": "/CraterCo/static/media/jackpt.c568e287f5e71d5ab535.png",
+    "index.html": "/CraterCo/index.html",
+    "main.4df29052.css.map": "/CraterCo/static/css/main.4df29052.css.map",
+    "main.194a3f31.js.map": "/CraterCo/static/js/main.194a3f31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4df29052.css",
+    "static/js/main.194a3f31.js"
+  ]
+}

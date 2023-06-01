@@ -1,0 +1,72 @@
+.mission {
+    background-image: url('./media/bgstars.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    min-height: 300px;
+    /* Change this to your desired height */
+    text-align: center;
+    padding: 2rem;
+}
+
+.mission__title {
+    font-size: 2em;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+}
+
+.mission__subtitle {
+    font-size: 3em;
+    margin-bottom: 1rem;
+}
+
+.mission__location {
+    font-size: 2em;
+    margin-bottom: 2rem;
+}
+
+.mission__description {
+    font-size: 1.25em;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .mission {
+        height: auto;
+        /* Or specify a larger vh value if required */
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes dropDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.mission.animate .fade-in {
+    animation: fadeIn 2s;
+}
+
+.mission.animate .earth {
+    animation: dropDown 2s;
+}

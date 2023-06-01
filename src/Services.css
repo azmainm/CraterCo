@@ -1,0 +1,75 @@
+.services-container {
+    background-image: url('./media/bgstars.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 2rem;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.8em;
+    /* Make the header larger */
+    font-weight: bold;
+    color: rgb(193, 193, 193);
+    /* Make the header bolder */
+}
+
+.services-columns {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-columns ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-columns ul li {
+    margin-bottom: 1rem;
+    font-size: 1.1em;
+    display: flex;
+    color: rgb(193, 193, 193);
+    /* This will allow the icon and the text to be on the same line */
+    align-items: center;
+    /* This will vertically center the icon with the text */
+}
+
+.services-columns ul li:hover {
+    color: orange;
+    /* On hover, each service becomes orange */
+}
+
+.services-columns ul li .icon {
+    margin-right: 0.5em;
+    /* Add some space between the icon and the text */
+}
+
+@media (max-width: 768px) {
+    .services-columns ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    .services-columns ul li {
+        text-align: center;
+    }
+
+    .services-container h1 {
+        text-align: center;
+    }
+}

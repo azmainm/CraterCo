@@ -1,0 +1,76 @@
+.products-container {
+    background-image: url('./media/bgstars.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* Changed from row to column to center the elements */
+    justify-content: center;
+    align-items: center;
+    /* Added to center the elements */
+    background-color: black;
+    /* Changed to black */
+    padding: 1rem;
+    color: white;
+    /* Changed all text to white */
+}
+
+.product {
+    width: 80%;
+    /* Set width for better spacing */
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    /* Added padding for better spacing */
+}
+
+.product-image {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* Added margin for better spacing */
+}
+
+.product-title {
+    font-size: 2em;
+    margin-top: 0.5em;
+    color: rgb(193, 193, 193);
+    /* Changed to white */
+}
+
+.product-description {
+    font-size: 1.1em;
+    color: rgb(193, 193, 193);
+    margin-top: 0.5em;
+    width: 60%;
+    /* Limit width */
+    text-align: center;
+    /* Align left */
+    margin-left: auto;
+    /* Auto margin for centering */
+    margin-right: auto;
+    /* Auto margin for centering */
+
+}
+
+.product-link {
+    margin-top: 1em;
+    /* Add space above the link */
+    color: gray;
+}
+
+.product-link:hover {
+    color: orange;
+}
+
+@media (max-width: 768px) {
+    .product-description {
+        width: 100%;
+    }
+
+    .product-image {
+        max-width: 80%;
+    }
+}

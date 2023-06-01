@@ -1,0 +1,62 @@
+.form-container {
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 0;
+    /* Updated */
+    height: 100%;
+}
+
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2em;
+    /* Reduced the font size to ensure it fits in one line on more devices */
+    font-weight: bold;
+    padding: 20px;
+    white-space: nowrap;
+    /* This prevents the header text from breaking into a new line */
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form input,
+.form-container form textarea {
+    width: 80%;
+    /* Reduce the width as per your requirement */
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+
+.form-container form button {
+    width: 80%;
+    /* same as the input boxes */
+    margin: 0 auto 1rem;
+    /* to center the button */
+    background-color: orange;
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font: medium;
+}
+
+.form-container form button:hover {
+    background-color: #be770d;
+}

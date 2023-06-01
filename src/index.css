@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* This is for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    width: 8px;
+    /* Change width of the scrollbar */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Change the color of the track (background) of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Change the color of the scroll thumb (movable part of the scrollbar) */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff8f1f;
+    /* Change color of scrollbar when hovered */
+}
+
+/* This is for Internet Explorer and Edge */
+body {
+    scrollbar-width: thin;
+    /* Make the scrollbar thinner */
+    scrollbar-color: #888 #f1f1f1;
+    /* First color is the thumb, second is the track */
+}
+
+body:hover {
+    scrollbar-color: #000 #f1f1f1;
+    /* Change color of scrollbar when body is hovered */
 }

@@ -1,0 +1,71 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+.hero__down-arrow {
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8em;
+    color: white;
+    cursor: pointer;
+    transition: font-size 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    /* adjust as needed */
+}
+
+.meteor-icon {
+    font-size: 0.6em;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 8px;
+    animation: hopping 3s infinite;
+}
+
+.meteor-icon:hover {
+    color: rgb(239, 132, 31);
+}
+
+
+
+.earth-icon {
+    transition: all 0.3s ease-in-out;
+
+}
+
+/* .earth-icon:hover {
+    transform: scale(1.2);
+    color: rgb(121, 206, 237);
+} */
+
+@keyframes hopping {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

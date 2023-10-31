@@ -1,7 +1,7 @@
 import React from 'react';
 import './Products.css';
 import jackptImage from './media/jackpt.png';
-import freepaniImage from './media/freepani.png';
+import BHAI from './media/BHAI.jpg';
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween } from 'react-gsap';
 
@@ -23,9 +23,9 @@ const Products = () => {
                             <a href="https://www.jackptbd.com" className="product-link">www.jackptbd.com</a>
                         </div>
                         <div className="product">
-                            <img src={freepaniImage} alt="FreePani" className="product-image" />
+                            <img src={BHAI} alt="FreePani" className="product-image" />
                             <p className="product-description">
-                                FreePani's mission is to bring ads to everyone's hands while satisfying their thirst for free. We're dedicated to making water accessible for all. Together, we create a sustainable advertising experience for a better future.
+                                an easy-to-use app powered by generative AI that answers your questions in both English and Bengali. Just type your question in your preferred language, and get an instant response. This app makes digital assistance accessible and convenient for everyone, regardless of language preference.
                             </p>
                         </div>
                     </div>

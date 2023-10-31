@@ -25,7 +25,7 @@ const Products = () => {
                         <div className="product">
                             <img src={BHAI} alt="Bhai" className="product-image" />
                             <p className="product-description">
-                                An easy-to-use app powered by generative AI that answers your questions in both English and Bengali. Just type your question in your preferred language, and get an instant response. This app makes digital assistance accessible and convenient for everyone, regardless of language preference.
+                                BHAI - An easy-to-use app powered by generative AI that answers your questions in both English and Bengali. Just type your question in your preferred language, and get an instant response. This app makes digital assistance accessible and convenient for everyone, regardless of language preference.
                             </p>
                         </div>
                     </div>

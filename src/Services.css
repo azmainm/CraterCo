@@ -50,7 +50,7 @@
 }
 
 .services-columns ul li:hover {
-    color: orange;
+    color: #22f5c4;
     /* On hover, each service becomes orange */
 }
 

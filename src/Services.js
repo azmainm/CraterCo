@@ -6,13 +6,14 @@ import { Tween } from 'react-gsap';
 
 const Services = () => {
     const services = [
-        "Front End Development",
-        "Full Stack Web Development",
-        "UI/UX Services",
+        "Web Development",
+        "App Development",
+        "UI/UX Design",
         "Graphic Design",
-        "Data Analytics",
+        "Motion Graphics",
         "Webscraping",
         "AI Product Development",
+        "SAAS",
         "Automation"
     ];
 
@@ -21,7 +22,7 @@ const Services = () => {
             <Scene duration={700} triggerHook="onEnter">
                 <Tween from={{ y: '-100px', opacity: 0 }} to={{ y: '0', opacity: 1 }}>
                     <div className="services-container">
-                        <h1>We <span className="text-[#f97316]">Offer</span></h1>
+                        <h1 className='text-lg'>All Software <span className="text-[#22f5c4]">Solutions</span></h1>
                         <div className="services-columns">
                             <ul>
                                 {services.map((service, index) => (

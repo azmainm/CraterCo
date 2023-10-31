@@ -41,7 +41,7 @@
 }
 
 .product-description {
-    font-size: 1.1em;
+    font-size: 1em;
     color: rgb(193, 193, 193);
     margin-top: 0.5em;
     width: 60%;
@@ -62,7 +62,7 @@
 }
 
 .product-link:hover {
-    color: orange;
+    color: #22f5c4;
 }
 
 @media (max-width: 768px) {

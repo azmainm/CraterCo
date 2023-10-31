@@ -19,7 +19,7 @@ const Footer = () => {
                                     className="text-white hover:scale-105 duration-10 mx-2 hover:text-[#22f5c4]"
                                 />
                             </a>
-                            <a href="https://www.linkedin.com/in/company/craterco/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/company/craterco/" target="_blank" rel="noopener noreferrer">
                                 <FaLinkedin
                                     size={30}
                                     className="text-white hover:scale-105 duration-10 mx-2 hover:text-[#22f5c4]"

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Products.css';
 import jackptImage from './media/jackpt.png';
-import BHAI from './media/BHAI.jpg';
+import BHAI from './media/BHAI.png';
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween } from 'react-gsap';
 
@@ -23,9 +23,9 @@ const Products = () => {
                             <a href="https://www.jackptbd.com" className="product-link">www.jackptbd.com</a>
                         </div>
                         <div className="product">
-                            <img src={BHAI} alt="FreePani" className="product-image" />
+                            <img src={BHAI} alt="Bhai" className="product-image" />
                             <p className="product-description">
-                                an easy-to-use app powered by generative AI that answers your questions in both English and Bengali. Just type your question in your preferred language, and get an instant response. This app makes digital assistance accessible and convenient for everyone, regardless of language preference.
+                                An easy-to-use app powered by generative AI that answers your questions in both English and Bengali. Just type your question in your preferred language, and get an instant response. This app makes digital assistance accessible and convenient for everyone, regardless of language preference.
                             </p>
                         </div>
                     </div>
